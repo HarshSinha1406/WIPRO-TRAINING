@@ -1,0 +1,9 @@
+{
+     "name": "harsh",
+     "age": 23,
+     "location": "patna , Bihar",
+     "skills": [
+          "python",
+          "java"
+     ]
+}
