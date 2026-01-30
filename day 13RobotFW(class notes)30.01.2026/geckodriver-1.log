@@ -1,0 +1,49 @@
+1769750316691	geckodriver	INFO	Listening on 127.0.0.1:59398
+1769750319761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59399" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KIIT\\AppData\\Local\\Temp\\rust_mozprofileNJMtBn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1769750320537	Marionette	INFO	Marionette enabled
+1769750320895	Marionette	INFO	Listening on port 49763
+WebDriver BiDi listening on ws://127.0.0.1:59399
+Read port: 49763
+1769750321209	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1769750351798	Marionette	INFO	Stopped listening on port 49763
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/password-rules Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no]
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"validateCollectionSignature","sourceId":24,"lineNumber":1089,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_importChanges","sourceId":24,"lineNumber":1205,"columnNumber":20,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1205:20\n","nativeSavedFrame":{}},"formattedStack":"validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1089:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1205:20\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nvalidateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1089:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1205:20\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nvalidateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1089:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1205:20\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nvalidateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1089:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1205:20\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1089:47|_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1205:20|
+  - prototype Object
+console.warn: services.settings: main/search-config-v2 sync interrupted by shutdown
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 105: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/moz-essential-domain-fallbacks sync interrupted by shutdown
+console.warn: services.settings: main/mfcdm-origins-list sync interrupted by shutdown
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/ml-inference-words-block-list getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
