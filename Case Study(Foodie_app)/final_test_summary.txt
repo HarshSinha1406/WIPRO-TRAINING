@@ -1,0 +1,87 @@
+Register Restaurant : PASSED
+Duplicate Restaurant : PASSED
+View Restaurant : PASSED
+Update Restaurant : PASSED
+Disable Restaurant : PASSED
+Add Dish : PASSED
+Update Dish : PASSED
+Toggle Dish Status : PASSED
+Delete Dish : PASSED
+Register User : PASSED
+Duplicate User : PASSED
+Place Order : PASSED
+View Orders By User : PASSED
+View Orders By Restaurant : PASSED
+Give Rating : PASSED
+Admin Approve Restaurant : PASSED
+Admin Disable Restaurant : PASSED
+Admin View Orders : PASSED
+Register Restaurant : PASSED
+Duplicate Restaurant : PASSED
+View Restaurant : PASSED
+Update Restaurant : PASSED
+Disable Restaurant : PASSED
+Add Dish : PASSED
+Update Dish : PASSED
+Toggle Dish Status : PASSED
+Delete Dish : PASSED
+Register User : PASSED
+Duplicate User : PASSED
+Place Order : PASSED
+View Orders By User : PASSED
+View Orders By Restaurant : PASSED
+Give Rating : PASSED
+Admin Approve Restaurant : PASSED
+Admin Disable Restaurant : PASSED
+Admin View Orders : PASSED
+Duplicate Restaurant : PASSED
+Duplicate User : PASSED
+View Orders By User : PASSED
+View Orders By Restaurant : PASSED
+Admin View Orders : PASSED
+Register User : PASSED
+Duplicate User : PASSED
+View Orders By User : PASSED
+View Orders By Restaurant : PASSED
+Admin View Orders : PASSED
+Register Restaurant : PASSED
+Duplicate Restaurant : PASSED
+View Restaurant : PASSED
+Update Restaurant : PASSED
+Disable Restaurant : PASSED
+Add Dish : PASSED
+Update Dish : PASSED
+Toggle Dish Status : PASSED
+Delete Dish : PASSED
+Register User : PASSED
+Duplicate User : PASSED
+Place Order : PASSED
+View Orders By User : PASSED
+View Orders By Restaurant : PASSED
+Give Rating : PASSED
+Admin Approve Restaurant : PASSED
+Admin Disable Restaurant : PASSED
+Admin View Orders : PASSED
+Register User : PASSED
+Duplicate User : PASSED
+View Orders By User : PASSED
+View Orders By Restaurant : PASSED
+Admin View Orders : PASSED
+Register Restaurant : PASSED
+Duplicate Restaurant : PASSED
+View Restaurant : PASSED
+Update Restaurant : PASSED
+Disable Restaurant : PASSED
+Add Dish : PASSED
+Update Dish : PASSED
+Toggle Dish Status : PASSED
+Delete Dish : PASSED
+Register User : PASSED
+Duplicate User : PASSED
+Place Order : PASSED
+View Orders By User : PASSED
+View Orders By Restaurant : PASSED
+Give Rating : PASSED
+Admin Approve Restaurant : PASSED
+Admin Disable Restaurant : PASSED
+Admin View Orders : PASSED
