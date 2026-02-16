@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# In-memory storage
 restaurants = {}
 users = {}
 orders = {}
@@ -13,11 +12,6 @@ dish_counter = 1
 user_counter = 1
 order_counter = 1
 rating_counter = 1
-
-
-# ===============================
-# RESTAURANT MODULE
-# ===============================
 
 @app.route("/api/v1/restaurants", methods=["POST"])
 def register_restaurant():
@@ -106,10 +100,6 @@ def search_restaurants():
     return jsonify(results), 200
 
 
-# ===============================
-# DISH MODULE
-# ===============================
-
 @app.route("/api/v1/restaurants/<int:restaurant_id>/dishes", methods=["POST"])
 def add_dish(restaurant_id):
     global dish_counter
@@ -169,11 +159,6 @@ def delete_dish(dish_id):
                 return jsonify({"message": "Dish deleted"}), 200
     return jsonify({"error": "Not found"}), 404
 
-
-# ===============================
-# USER MODULE
-# ===============================
-
 @app.route("/api/v1/users/register", methods=["POST"])
 def register_user():
     global user_counter
@@ -198,11 +183,6 @@ def register_user():
     user_counter += 1
 
     return jsonify(user), 201
-
-
-# ===============================
-# ORDER MODULE
-# ===============================
 
 @app.route("/api/v1/orders", methods=["POST"])
 def place_order():
@@ -237,11 +217,6 @@ def view_orders_by_user(user_id):
     result = [o for o in orders.values() if o["user_id"] == user_id]
     return jsonify(result), 200
 
-
-# ===============================
-# RATING MODULE
-# ===============================
-
 @app.route("/api/v1/ratings", methods=["POST"])
 def give_rating():
     global rating_counter
@@ -261,11 +236,6 @@ def give_rating():
     rating_counter += 1
 
     return jsonify(rating), 201
-
-
-# ===============================
-# ADMIN MODULE
-# ===============================
 
 @app.route("/api/v1/admin/restaurants/<int:restaurant_id>/approve", methods=["PUT"])
 def approve_restaurant(restaurant_id):
@@ -297,4 +267,5 @@ def view_feedback():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
